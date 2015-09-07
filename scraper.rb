@@ -39,7 +39,7 @@ def scrape_list(url)
       term: 2012,
       source: url,
     }
-    puts data
+    # puts data
     ScraperWiki.save_sqlite([:name, :term], data)
   end
 
