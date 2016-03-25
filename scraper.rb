@@ -45,4 +45,4 @@ def scrape_list(url)
 
 end
 
-scrape_list('http://gov.gg/states_members_contact_details')
+scrape_list('http://theoldsite.gov.gg/states_members_contact_details')
